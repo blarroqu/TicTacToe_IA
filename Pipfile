@@ -7,11 +7,6 @@ verify_ssl = true
 
 [packages]
 flask-restful = "*"
-jupyter = "*"
-opencv-contrib-python = "*"
-matplotlib = "*"
-torch = "*"
-torchvision = "*"
 
 [requires]
 python_version = "3.6"
