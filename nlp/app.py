@@ -2,7 +2,7 @@
 
 from flask import Flask
 from flask_restful import Api, Resource, reqparse
-from play import *
+
 
 PLAYER = 0
 COMPUTER = 1
