@@ -41,7 +41,7 @@ class Board(Resource):
         computer_move = None
 
         # Player plays
-        if int(args.move) in free_cells:  # TODO Send an error code
+        if int(args.move) in free_cells:  
             player_move = int(args.move)
             self.board[player_move] = PLAYER
 
