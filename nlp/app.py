@@ -7,7 +7,7 @@ import sys
 
 [sys.path.append(i) for i in ['.', '..']]
 
-from common.play import *
+from play import *
 
 PLAYER = 0
 COMPUTER = 1
